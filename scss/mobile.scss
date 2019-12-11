@@ -1,0 +1,125 @@
+@media (max-width: 669px) {
+  * {
+    overflow-x: hidden;
+  }
+
+
+  nav {
+    justify-content: center !important;
+
+    .logo {
+      padding: 0;
+      flex: 1;
+
+      p {
+        display: none;
+      }
+    }
+
+    ul {
+      flex: 4;
+      justify-content: center !important;
+
+      li {
+        padding: 1rem;
+
+        &:nth-child(2) {
+          a {
+            display: none !important;
+          }
+        }
+
+        a {
+          font-size: 1.4rem !important;
+        }
+      }
+    }
+  }
+
+  #showcase {
+    height: 90vh;
+    background: #D5CCC0 !important;
+
+    .showcase-content {
+      height: 100%;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+
+      .local-info {
+        position: initial !important;
+        padding-top: 1rem;
+        display: grid;
+
+        .hours {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          font-size: 1.5rem !important;
+          margin-right: 1.5rem;
+        }
+
+        .info {
+          display: flex;
+          padding: 1rem;
+
+          i {
+            font-size: 2.5rem;
+            padding-right: 0.5rem;
+            color: #754220;
+          }
+
+          p {
+            color: black;
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      .icons {
+        position: initial !important;
+        display: flex;
+        padding-top: 2rem;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+
+        .icon {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 0.5rem;
+
+          i {
+            font-size: 2rem;
+          }
+
+          p {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .prices-content {
+    .prices {
+      width: 70% !important;
+      font-size: 1.1rem !important;
+
+      p {
+        font-size: 1.2rem !important;
+      }
+
+      img {
+        padding: 1rem 1rem !important;
+      }
+    }
+  }
+
+
+
+
+  footer {
+    display: none;
+  }
+}

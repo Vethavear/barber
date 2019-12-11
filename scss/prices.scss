@@ -1,0 +1,154 @@
+* {
+  font-family: 'Cormorant', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background: #D5CCC0;
+  border-bottom: 3px solid #754220;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+
+    a {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      height: 100%;
+
+      p {
+        font-size: 2rem;
+        font-weight: bold;
+        color: black;
+      }
+
+      img {
+        height: 100%;
+        padding-left: 0.5rem;
+      }
+    }
+  }
+
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+    li {
+      display: flex;
+      align-items: center;
+      padding: 1rem 0;
+
+      a {
+        font-size: 2rem;
+        color: #333;
+        text-decoration: none;
+        transition: all 0.2s;
+
+        &:hover {
+          color: #754220;
+          font-size: 2.1rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+#prices {
+  height: 90vh;
+  background: url('/dist/img/eq.jpg') center center/cover;
+
+  .prices-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+
+
+    .prices {
+      display: grid;
+      width: 40%;
+      grid-template-columns: 1fr 1fr 1fr;
+      font-size: 1.8rem;
+      align-items: center;
+      justify-items: center;
+      padding-bottom: 2rem;
+      background: #D5CCC0;
+      // box-shadow: inset 0 0 10px #754220;
+      box-shadow: 0 0 10px #754220;
+
+      h1 {
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+        padding: 1rem 0;
+      }
+
+      .separator {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        width: 100%;
+        border: 1px solid #754220;
+      }
+
+      img {
+        padding: 1rem 0;
+      }
+
+      p {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      #book,
+      a {
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        margin: 1rem 0;
+        padding: 1rem;
+        background: #754220;
+        border-radius: 0.5rem;
+        transition: all 0.5s;
+
+        &:hover {
+          background: #D5CCC0;
+          border: 2px solid #754220;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background: #D5CCC0;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding-right: 1rem;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}

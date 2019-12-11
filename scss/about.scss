@@ -1,0 +1,169 @@
+* {
+  font-family: 'Cormorant', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background: #D5CCC0;
+  border-bottom: 3px solid #754220;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+
+    a {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      height: 100%;
+
+      p {
+        font-size: 2rem;
+        font-weight: bold;
+        color: black;
+      }
+
+      img {
+        height: 100%;
+        padding-left: 0.5rem;
+      }
+    }
+  }
+
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+    li {
+      display: flex;
+      align-items: center;
+      padding: 1rem 0;
+
+      a {
+        font-size: 2rem;
+        color: #333;
+        text-decoration: none;
+        transition: all 0.2s;
+
+        &:hover {
+          color: #754220;
+          font-size: 2.1rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+#showcase {
+  height: 90vh;
+
+  .showcase-content {
+    display: flex;
+    height: 100%;
+
+    .img {
+      flex: 1;
+      background: url('/dist/img/about.jpg') no-repeat center center/cover;
+      border-right: 3px solid #754220;
+    }
+
+    .about {
+      flex: 2;
+      background: #D5CCC0;
+
+      h3,
+      .barbers,
+      p {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        text-align: center;
+        padding: 4rem 0;
+        font-size: 2rem;
+      }
+
+      .barbers {
+        display: flex;
+        justify-content: space-evenly;
+
+        .barber1,
+        .barber2,
+        .barber3 {
+          position: relative;
+          flex: 1;
+          margin: 0 5rem;
+          height: 100%;
+          border: 2px solid #754220;
+          box-shadow: inset 0 0 10px #754220,
+            0 0 10px #754220;
+          padding: 7rem;
+          border-radius: 50%;
+
+          .overlay {
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.6);
+            transition: all 0.4s;
+
+          }
+
+          p {
+            color: white;
+            font-size: 1.8rem;
+            opacity: 0;
+            transition: all 0.4s;
+            text-align: center;
+            position: relative;
+            top: 40%;
+          }
+
+          &:hover .overlay {
+            opacity: 1;
+          }
+
+          &:hover p {
+            opacity: 1;
+          }
+        }
+
+        .barber1 {
+          background: url('/dist/img/barbers/2.jpg') center center/cover no-repeat;
+        }
+
+        .barber2 {
+          background: url('/dist/img/barbers/3.jpg') center center/cover no-repeat;
+        }
+
+        .barber3 {
+          background: url('/dist/img/barbers/5.png') center center/cover no-repeat;
+        }
+
+
+      }
+
+      .history {
+        padding: 0 5rem;
+      }
+    }
+  }
+}

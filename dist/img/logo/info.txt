@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Cormorant-SemiBold
+font link: https://fonts.google.com/specimen/Cormorant
+font author: Christian Thalmann
+font author site: http://www.myfonts.com/foundry/Catharsis_Fonts/
+Slogan Font: Neuton-Extralight.ttf
+
+icon designer: rahmat
+icon designer link: /rahmat.sign
+        
+{"bg":"#D5CCC0","icon":"#754220","font":"#000000","slogan":"#141414"}
+      
