@@ -69,8 +69,9 @@ nav {
 }
 
 #showcase {
+  overflow:hidden;
   height: 90vh;
-
+width:100%;
   .showcase-content {
     display: flex;
     height: 100%;
@@ -168,7 +169,7 @@ nav {
 
     .img {
       flex: 1;
-      background: url('/dist/img/roadsign.jpeg') no-repeat center center/cover;
+      background: url('../img/roadsign.jpeg') no-repeat center center/cover;
       border-left: 3px solid #754220;
     }
   }

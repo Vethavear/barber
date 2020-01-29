@@ -1,2 +1,190 @@
-*{font-family:'Cormorant', serif;margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}nav{position:-webkit-sticky;position:sticky;top:0;left:0;width:100vw;height:10vh;background:#D5CCC0;border-bottom:3px solid #754220;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}nav .logo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-left:1rem}nav .logo a{text-decoration:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%}nav .logo a p{font-size:2rem;font-weight:bold;color:black}nav .logo a img{height:100%;padding-left:0.5rem}nav ul{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;list-style:none}nav ul li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:1rem 0}nav ul li a{font-size:2rem;color:#333;text-decoration:none;-webkit-transition:all 0.2s;transition:all 0.2s}nav ul li a:hover{color:#754220;font-size:2.1rem;font-weight:bold}#prices{height:90vh;background:url("/dist/img/eq.jpg") center center/cover}#prices .prices-content{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-top:1rem}#prices .prices-content .prices{display:-ms-grid;display:grid;width:40%;-ms-grid-columns:1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr;font-size:1.8rem;-webkit-box-align:center;-ms-flex-align:center;align-items:center;justify-items:center;padding-bottom:2rem;background:#D5CCC0;-webkit-box-shadow:0 0 10px #754220;box-shadow:0 0 10px #754220}#prices .prices-content .prices h1{-ms-grid-column:1;grid-column-start:1;grid-column-end:4;padding:1rem 0}#prices .prices-content .prices .separator{-ms-grid-column:1;grid-column-start:1;grid-column-end:4;width:100%;border:1px solid #754220}#prices .prices-content .prices img{padding:1rem 0}#prices .prices-content .prices p{font-size:2rem;text-align:center}#prices .prices-content .prices #book,#prices .prices-content .prices a{-ms-grid-column:1;grid-column-start:1;grid-column-end:4}#prices .prices-content .prices a{text-decoration:none;color:white;margin:1rem 0;padding:1rem;background:#754220;border-radius:0.5rem;-webkit-transition:all 0.5s;transition:all 0.5s}#prices .prices-content .prices a:hover{background:#D5CCC0;border:2px solid #754220;color:black}footer{background:#D5CCC0;position:absolute;bottom:1rem;right:1rem;padding-right:1rem}footer a{text-decoration:none;color:black}
+* {
+  font-family: 'Cormorant', serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background: #D5CCC0;
+  border-bottom: 3px solid #754220;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1rem;
+}
+
+nav .logo a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+nav .logo a p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+nav .logo a img {
+  height: 100%;
+  padding-left: 0.5rem;
+}
+
+nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0;
+}
+
+nav ul li a {
+  font-size: 2rem;
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+nav ul li a:hover {
+  color: #754220;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+#prices {
+  height: 90vh;
+  background: url("../img/eq.jpg") center center/cover;
+}
+
+#prices .prices-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+}
+
+#prices .prices-content .prices {
+  display: -ms-grid;
+  display: grid;
+  width: 40%;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  font-size: 1.8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  padding-bottom: 2rem;
+  background: #D5CCC0;
+  -webkit-box-shadow: 0 0 10px #754220;
+          box-shadow: 0 0 10px #754220;
+}
+
+#prices .prices-content .prices h1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  padding: 1rem 0;
+}
+
+#prices .prices-content .prices .separator {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+  border: 1px solid #754220;
+}
+
+#prices .prices-content .prices img {
+  padding: 1rem 0;
+}
+
+#prices .prices-content .prices p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#prices .prices-content .prices #book,
+#prices .prices-content .prices a {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#prices .prices-content .prices a {
+  text-decoration: none;
+  color: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #754220;
+  border-radius: 0.5rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#prices .prices-content .prices a:hover {
+  background: #D5CCC0;
+  border: 2px solid #754220;
+  color: black;
+}
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
 /*# sourceMappingURL=prices.css.map */

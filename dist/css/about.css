@@ -1,2 +1,211 @@
-*{font-family:'Cormorant', serif;margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}nav{position:-webkit-sticky;position:sticky;top:0;left:0;width:100vw;height:10vh;background:#D5CCC0;border-bottom:3px solid #754220;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}nav .logo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-left:1rem}nav .logo a{text-decoration:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%}nav .logo a p{font-size:2rem;font-weight:bold;color:black}nav .logo a img{height:100%;padding-left:0.5rem}nav ul{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;list-style:none}nav ul li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:1rem 0}nav ul li a{font-size:2rem;color:#333;text-decoration:none;-webkit-transition:all 0.2s;transition:all 0.2s}nav ul li a:hover{color:#754220;font-size:2.1rem;font-weight:bold}#showcase{height:90vh}#showcase .showcase-content{display:-webkit-box;display:-ms-flexbox;display:flex;height:100%}#showcase .showcase-content .img{-webkit-box-flex:1;-ms-flex:1;flex:1;background:url("/dist/img/about.jpg") no-repeat center center/cover;border-right:3px solid #754220}#showcase .showcase-content .about{-webkit-box-flex:2;-ms-flex:2;flex:2;background:#D5CCC0}#showcase .showcase-content .about h3,#showcase .showcase-content .about .barbers,#showcase .showcase-content .about p{font-size:1.5rem}#showcase .showcase-content .about h3{text-align:center;padding:4rem 0;font-size:2rem}#showcase .showcase-content .about .barbers{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly}#showcase .showcase-content .about .barbers .barber1,#showcase .showcase-content .about .barbers .barber2,#showcase .showcase-content .about .barbers .barber3{position:relative;-webkit-box-flex:1;-ms-flex:1;flex:1;margin:0 5rem;height:100%;border:2px solid #754220;-webkit-box-shadow:inset 0 0 10px #754220, 0 0 10px #754220;box-shadow:inset 0 0 10px #754220, 0 0 10px #754220;padding:7rem;border-radius:50%}#showcase .showcase-content .about .barbers .barber1 .overlay,#showcase .showcase-content .about .barbers .barber2 .overlay,#showcase .showcase-content .about .barbers .barber3 .overlay{opacity:0;position:absolute;top:0;right:0;width:100%;height:100%;border-radius:50%;background:rgba(0,0,0,0.6);-webkit-transition:all 0.4s;transition:all 0.4s}#showcase .showcase-content .about .barbers .barber1 p,#showcase .showcase-content .about .barbers .barber2 p,#showcase .showcase-content .about .barbers .barber3 p{color:white;font-size:1.8rem;opacity:0;-webkit-transition:all 0.4s;transition:all 0.4s;text-align:center;position:relative;top:40%}#showcase .showcase-content .about .barbers .barber1:hover .overlay,#showcase .showcase-content .about .barbers .barber2:hover .overlay,#showcase .showcase-content .about .barbers .barber3:hover .overlay{opacity:1}#showcase .showcase-content .about .barbers .barber1:hover p,#showcase .showcase-content .about .barbers .barber2:hover p,#showcase .showcase-content .about .barbers .barber3:hover p{opacity:1}#showcase .showcase-content .about .barbers .barber1{background:url("/dist/img/barbers/2.jpg") center center/cover no-repeat}#showcase .showcase-content .about .barbers .barber2{background:url("/dist/img/barbers/3.jpg") center center/cover no-repeat}#showcase .showcase-content .about .barbers .barber3{background:url("/dist/img/barbers/5.png") center center/cover no-repeat}#showcase .showcase-content .about .history{padding:0 5rem}
+* {
+  font-family: 'Cormorant', serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background: #D5CCC0;
+  border-bottom: 3px solid #754220;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1rem;
+}
+
+nav .logo a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+nav .logo a p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+nav .logo a img {
+  height: 100%;
+  padding-left: 0.5rem;
+}
+
+nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0;
+}
+
+nav ul li a {
+  font-size: 2rem;
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+nav ul li a:hover {
+  color: #754220;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+#showcase {
+  height: 90vh;
+}
+
+#showcase .showcase-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+#showcase .showcase-content .img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: url("../img/about.jpg") no-repeat center center/cover;
+  border-right: 3px solid #754220;
+}
+
+#showcase .showcase-content .about {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  background: #D5CCC0;
+}
+
+#showcase .showcase-content .about h3,
+#showcase .showcase-content .about .barbers,
+#showcase .showcase-content .about p {
+  font-size: 1.5rem;
+}
+
+#showcase .showcase-content .about h3 {
+  text-align: center;
+  padding: 4rem 0;
+  font-size: 2rem;
+}
+
+#showcase .showcase-content .about .barbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#showcase .showcase-content .about .barbers .barber1,
+#showcase .showcase-content .about .barbers .barber2,
+#showcase .showcase-content .about .barbers .barber3 {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 5rem;
+  height: 100%;
+  border: 2px solid #754220;
+  -webkit-box-shadow: inset 0 0 10px #754220, 0 0 10px #754220;
+          box-shadow: inset 0 0 10px #754220, 0 0 10px #754220;
+  padding: 7rem;
+  border-radius: 50%;
+}
+
+#showcase .showcase-content .about .barbers .barber1 .overlay,
+#showcase .showcase-content .about .barbers .barber2 .overlay,
+#showcase .showcase-content .about .barbers .barber3 .overlay {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#showcase .showcase-content .about .barbers .barber1 p,
+#showcase .showcase-content .about .barbers .barber2 p,
+#showcase .showcase-content .about .barbers .barber3 p {
+  color: white;
+  font-size: 1.8rem;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+
+#showcase .showcase-content .about .barbers .barber1:hover .overlay,
+#showcase .showcase-content .about .barbers .barber2:hover .overlay,
+#showcase .showcase-content .about .barbers .barber3:hover .overlay {
+  opacity: 1;
+}
+
+#showcase .showcase-content .about .barbers .barber1:hover p,
+#showcase .showcase-content .about .barbers .barber2:hover p,
+#showcase .showcase-content .about .barbers .barber3:hover p {
+  opacity: 1;
+}
+
+#showcase .showcase-content .about .barbers .barber1 {
+  background: url("../img/barbers/2.jpg") center center/cover no-repeat;
+}
+
+#showcase .showcase-content .about .barbers .barber2 {
+  background: url("../img/barbers/3.jpg") center center/cover no-repeat;
+}
+
+#showcase .showcase-content .about .barbers .barber3 {
+  background: url("../img/barbers/5.png") center center/cover no-repeat;
+}
+
+#showcase .showcase-content .about .history {
+  padding: 0 5rem;
+}
 /*# sourceMappingURL=about.css.map */

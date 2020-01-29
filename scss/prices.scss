@@ -70,7 +70,7 @@ nav {
 
 #prices {
   height: 90vh;
-  background: url('/dist/img/eq.jpg') center center/cover;
+  background: url('../img/eq.jpg') center center/cover;
 
   .prices-content {
     width: 100%;
@@ -141,14 +141,13 @@ nav {
 }
 
 footer {
-  background: #D5CCC0;
   position: absolute;
   bottom: 1rem;
   right: 1rem;
   padding-right: 1rem;
-
+color:white;
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 }

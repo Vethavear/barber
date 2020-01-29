@@ -1,2 +1,181 @@
-*{font-family:'Cormorant', serif;margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}nav{position:-webkit-sticky;position:sticky;top:0;left:0;width:100vw;height:10vh;background:#D5CCC0;border-bottom:3px solid #754220;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}nav .logo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-left:1rem}nav .logo a{text-decoration:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%}nav .logo a p{font-size:2rem;font-weight:bold;color:black}nav .logo a img{height:100%;padding-left:0.5rem}nav ul{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;list-style:none}nav ul li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:1rem 0}nav ul li a{font-size:2rem;color:#333;text-decoration:none;-webkit-transition:all 0.2s;transition:all 0.2s}nav ul li a:hover{color:#754220;font-size:2.1rem;font-weight:bold}#showcase{height:90vh;background:url("/dist/img/logo/cover.png") no-repeat center center/cover}#showcase .showcase-content{height:100%}#showcase .showcase-content .local-info{position:absolute;top:27%;right:19%;display:-ms-grid;display:grid;-ms-grid-columns:1fr 1fr;grid-template-columns:1fr 1fr;justify-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}#showcase .showcase-content .local-info .hours{-ms-grid-column:1;grid-column-start:1;grid-column-end:3;font-size:2rem;margin-right:1.5rem}#showcase .showcase-content .local-info .info{display:-webkit-box;display:-ms-flexbox;display:flex;padding:1rem}#showcase .showcase-content .local-info .info i{font-size:2.5rem;padding-right:0.5rem;color:#754220}#showcase .showcase-content .local-info .info p{color:black;font-size:2rem}#showcase .showcase-content .icons{position:absolute;bottom:15%;right:11%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}#showcase .showcase-content .icons .icon{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:2rem}#showcase .showcase-content .icons .icon i{font-size:2.5rem;padding-bottom:0.5rem;color:#754220}#showcase .showcase-content .icons .icon p{color:black;font-size:2rem}
+* {
+  font-family: 'Cormorant', serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background: #D5CCC0;
+  border-bottom: 3px solid #754220;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1rem;
+}
+
+nav .logo a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+nav .logo a p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+nav .logo a img {
+  height: 100%;
+  padding-left: 0.5rem;
+}
+
+nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0;
+}
+
+nav ul li a {
+  font-size: 2rem;
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+nav ul li a:hover {
+  color: #754220;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+#showcase {
+  height: 90vh;
+  background: url("../img/logo/cover.png") no-repeat center center/cover;
+}
+
+#showcase .showcase-content {
+  height: 100%;
+}
+
+#showcase .showcase-content .local-info {
+  position: absolute;
+  top: 27%;
+  right: 19%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#showcase .showcase-content .local-info .hours {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+
+#showcase .showcase-content .local-info .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+#showcase .showcase-content .local-info .info i {
+  font-size: 2.5rem;
+  padding-right: 0.5rem;
+  color: #754220;
+}
+
+#showcase .showcase-content .local-info .info p {
+  color: black;
+  font-size: 2rem;
+}
+
+#showcase .showcase-content .icons {
+  position: absolute;
+  bottom: 15%;
+  right: 11%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#showcase .showcase-content .icons .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+#showcase .showcase-content .icons .icon i {
+  font-size: 2.5rem;
+  padding-bottom: 0.5rem;
+  color: #754220;
+}
+
+#showcase .showcase-content .icons .icon p {
+  color: black;
+  font-size: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
