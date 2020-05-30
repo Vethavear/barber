@@ -202,10 +202,9 @@ nav ul li a:hover {
 }
 
 #showcase .showcase-content .about .barbers .barber3 {
-  background: url("../img/barbers/5.png") center center/cover no-repeat;
+  background: url("../img/barbers/5.jpg") center center/cover no-repeat;
 }
 
 #showcase .showcase-content .about .history {
   padding: 0 5rem;
 }
-/*# sourceMappingURL=about.css.map */
