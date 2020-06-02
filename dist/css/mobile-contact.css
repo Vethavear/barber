@@ -98,3 +98,104 @@
     display: none;
   }
 }
+
+@media (max-width: 1023px) {
+  * {
+    overflow-x: hidden;
+  }
+  nav {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  nav .logo {
+    padding: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  nav .logo p {
+    display: none;
+  }
+  nav ul {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  nav ul li {
+    padding: 1rem;
+  }
+  nav ul li:nth-child(2) a {
+    display: none !important;
+  }
+  nav ul li a {
+    font-size: 1.4rem !important;
+  }
+  #showcase {
+    height: 100%;
+    background: #D5CCC0 !important;
+  }
+  #showcase .showcase-content {
+    height: 100%;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  #showcase .showcase-content .img {
+    display: none !important;
+  }
+  #showcase .showcase-content .contact .first-row i {
+    font-size: 2rem !important;
+  }
+  #showcase .showcase-content .contact .first-row p {
+    font-size: 1.3rem !important;
+  }
+  #showcase .showcase-content .contact .first-row .hours {
+    font-size: 1.5rem;
+  }
+  #showcase .showcase-content .contact .second-row .icons {
+    position: initial !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 2rem;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  #showcase .showcase-content .contact .second-row .icons .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.5rem;
+  }
+  #showcase .showcase-content .contact .second-row .icons .icon i {
+    font-size: 5rem;
+  }
+  #showcase .showcase-content .contact .second-row .icons .icon p {
+    font-size: 1.5rem;
+  }
+  footer {
+    display: none;
+  }
+}

@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 nav {
   position: sticky;
   top: 0;
@@ -17,12 +16,13 @@ nav {
   justify-content: space-between;
 
   .logo {
-
+    width:100%;
     display: flex;
     align-items: center;
     padding-left: 1rem;
 
     a {
+      width:100%;
       text-decoration: none;
       display: flex;
       align-items: center;
@@ -69,14 +69,16 @@ nav {
 }
 
 #showcase {
-  overflow:hidden;
-  
-  height: 90vh;
-width:100%;
+  overflow-x:hidden;
+  width:100%;
+  min-height: 90vh;
   .showcase-content {
-    display: flex;
-    height: 100%;
+  overflow-x:hidden;
 
+    display: flex;
+    min-height: 90vh;
+
+    width:100%;
     .contact {
       flex: 2;
       background: #D5CCC0;
