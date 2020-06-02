@@ -34,11 +34,11 @@
     font-size: 1.4rem !important;
   }
   #showcase {
-    height: 90vh;
+    height: auto;
     background: #D5CCC0 !important;
   }
   #showcase .showcase-content {
-    height: 100%;
+    height: auto;
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
@@ -114,6 +114,171 @@
   #showcase .showcase-content .icons .icon p {
     font-size: 1.5rem;
   }
+  #showcase .showcase-content .about .barbers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #showcase .showcase-content .about .barbers .barber1, #showcase .showcase-content .about .barbers .barber2, #showcase .showcase-content .about .barbers .barber3 {
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 669px) and (orientation: portrait) {
+  #showcase {
+    min-height: 90vh;
+  }
+}
+
+@media (max-width: 669px) {
+  .prices-content .prices {
+    width: 70% !important;
+    font-size: 1.1rem !important;
+  }
+  .prices-content .prices p {
+    font-size: 1.2rem !important;
+  }
+  .prices-content .prices img {
+    padding: 1rem 1rem !important;
+  }
+  footer {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  * {
+    overflow-x: hidden;
+  }
+  nav {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  nav .logo {
+    padding: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  nav .logo p {
+    display: none;
+  }
+  nav ul {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  nav ul li {
+    overflow: hidden;
+    padding: 1rem;
+  }
+  nav ul li:nth-child(2) a {
+    display: none !important;
+  }
+  nav ul li a {
+    font-size: 1.4rem !important;
+  }
+  #showcase {
+    height: auto;
+    background: #D5CCC0 !important;
+  }
+  #showcase .showcase-content {
+    height: auto;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  #showcase .showcase-content .local-info {
+    position: initial !important;
+    padding-top: 1rem;
+    display: -ms-grid;
+    display: grid;
+  }
+  #showcase .showcase-content .local-info .hours {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 1.5rem !important;
+    margin-right: 1.5rem;
+  }
+  #showcase .showcase-content .local-info .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+  }
+  #showcase .showcase-content .local-info .info i {
+    font-size: 2.5rem;
+    padding-right: 0.5rem;
+    color: #754220;
+  }
+  #showcase .showcase-content .local-info .info p {
+    color: black;
+    font-size: 1.5rem;
+  }
+  #showcase .showcase-content .icons {
+    position: initial !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  #showcase .showcase-content .icons .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.5rem;
+  }
+  #showcase .showcase-content .icons .icon i {
+    font-size: 2rem;
+  }
+  #showcase .showcase-content .icons .icon p {
+    font-size: 1.5rem;
+  }
+  #showcase .showcase-content .about .barbers .barber1, #showcase .showcase-content .about .barbers .barber2, #showcase .showcase-content .about .barbers .barber3 {
+    margin: 0rem 0.25rem;
+  }
+}
+
+@media (max-width: 1100px) and (orientation: portrait) {
+  #showcase {
+    min-height: 90vh;
+  }
+}
+
+@media (max-width: 1100px) {
   .prices-content .prices {
     width: 70% !important;
     font-size: 1.1rem !important;
