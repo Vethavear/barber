@@ -10,7 +10,10 @@
     .logo {
       padding: 0;
       flex: 1;
+a{
+  width:100%;
 
+}
       p {
         display: none;
       }
@@ -278,8 +281,9 @@
 }
 
 @media(max-width: 1400px){
-
   #showcase{
+    height:100%;
+    // height: auto;
     .showcase-content{
       .local-info{
         top:20%;

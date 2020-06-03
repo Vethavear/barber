@@ -13,6 +13,9 @@
         -ms-flex: 1;
             flex: 1;
   }
+  nav .logo a {
+    width: 100%;
+  }
   nav .logo p {
     display: none;
   }
@@ -109,6 +112,7 @@
             justify-content: center !important;
   }
   nav .logo {
+    width: 100%;
     padding: 0;
     -webkit-box-flex: 1;
         -ms-flex: 1;
