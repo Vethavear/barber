@@ -13,6 +13,9 @@
         -ms-flex: 1;
             flex: 1;
   }
+  nav .logo a {
+    width: 100%;
+  }
   nav .logo p {
     display: none;
   }
@@ -187,6 +190,7 @@
     font-size: 1.4rem !important;
   }
   #showcase {
+    min-height: 90vh;
     height: auto;
     background: #D5CCC0 !important;
   }
@@ -291,5 +295,19 @@
   }
   footer {
     display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  #showcase {
+    height: 100%;
+  }
+  #showcase .showcase-content .local-info {
+    top: 20%;
+    right: 15%;
+  }
+  #showcase .showcase-content .icons {
+    bottom: 10%;
+    right: 0%;
   }
 }
