@@ -187,6 +187,7 @@
     font-size: 1.4rem !important;
   }
   #showcase {
+    min-height: 90vh;
     height: auto;
     background: #D5CCC0 !important;
   }
@@ -291,5 +292,16 @@
   }
   footer {
     display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  #showcase .showcase-content .local-info {
+    top: 20%;
+    right: 15%;
+  }
+  #showcase .showcase-content .icons {
+    bottom: 10%;
+    right: 0%;
   }
 }
