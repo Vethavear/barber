@@ -252,6 +252,7 @@ a{
       }
     }
   }
+  
   @media (orientation:portrait){
     #showcase{
       min-height: 90vh;
@@ -282,16 +283,31 @@ a{
 
 @media(max-width: 1400px){
   #showcase{
-    height:100%;
+    // height:100%;
     // height: auto;
+    background: #D5CCC0;
+    
     .showcase-content{
+      .widescreenHeading{
+        display: block;
+        position: absolute;
+        top:50%;
+        left:50%;
+        font-size: 5rem;
+        transform: translate(-50%,-50%);
+        color: #754220;
+      }
       .local-info{
-        top:20%;
-        right:15%;
+        top:30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
       }
       .icons{
         bottom:10%;
-        right:0%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
       }
     }
   }
