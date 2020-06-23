@@ -73,10 +73,12 @@ nav {
 }
 
 #showcase {
-  height: 90vh;
-
+  min-height: 90vh;
+height: 100%;
   .showcase-content {
     display: flex;
+  min-height: 90vh;
+
     height: 100%;
 
     .img {

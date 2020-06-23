@@ -94,13 +94,15 @@ nav ul li a:hover {
 }
 
 #showcase {
-  height: 90vh;
+  min-height: 90vh;
+  height: 100%;
 }
 
 #showcase .showcase-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 90vh;
   height: 100%;
 }
 
